@@ -1,7 +1,10 @@
 # Google-homepage-for-mobile
-A new customisable google homepage for mobile
+A new customisable google homepage for mobile.
 
-change it accordingly.
+You can change it accordingly.
+
+## Screenshot:
+![Screenshot of created homepage](images/Screenshot_2025-04-16-16-33-26-99_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
 
 ## How to run
 To Run this, install termux in your mobile.
