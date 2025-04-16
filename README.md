@@ -1,5 +1,5 @@
 # Google-homepage-for-mobile
-A new customisable google homepage for mobile.
+A cool and new customisable google homepage for mobile.
 
 You can change it accordingly.
 
