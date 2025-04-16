@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png">
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Google Homepage (Reworked by S.D.H.)</title>
+</head>
+<body>
+<div class="styles">
+<div class="atom">
+	<div class="nucleous">
+		<div class="row">
+			<div class="proton"></div>
+			<div class="proton"></div>
+			<div class="neutron"></div>
+			<div class="neutron"></div>
+		</div>
+		<div class="row">
+			<div class="neutron"></div>
+			<div class="neutron"></div>
+			<div class="proton"></div>
+			<div class="proton"></div>
+		</div>
+	</div>
+	<div class="orbits">
+		<div class="electron"></div>
+		<div class="electron"></div>
+		<div class="electron"></div>
+		<div class="electron"></div>
+		<div class="electron"></div>
+		<div class="electron"></div>
+	</div>
+</div>
+    <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google">
+    <p id="text" contenteditable="True">Coding is love</p>
+    <div>
+    <input type="text" placeholder="Search Google" value="" id="s">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png" alt="search" id="search" onclick="search()">
+    </div>
+    <div id="hotbar">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/240px-Facebook_f_logo_%282021%29.svg.png" alt="Facebook" class="red" onclick="facebook()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/240px-Instagram_icon.png" alt="Instagram" class="red" onclick="window.location.replace('https:/\/www.instagram.com')">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/320px-YouTube_full-color_icon_%282017%29.svg.png" alt="YouTube" class="red" onclick="youtube()" id="yt">
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-ea579c.png" alt="Flipkart" class="red" onclick="flipkart()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/240px-Zomato_logo.png" alt="Zomato" class="red" onclick="zomato()">
+    </div>
+    </div>
+    <h2>Popular Sites:</h2>
+    <div class="app-container">
+        <div class="git" onclick="git()">
+            <div id="bg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/240px-GitHub_Invertocat_Logo.svg.png" alt="GitHub" id="gh"></div>
+            
+            <h3 id="gih">GitHub</h3>
+        </div>
+        <div class="snap" onclick="dh()">
+            <img src="https://play-lh.googleusercontent.com/hob_fdd8pV3AI8K2rv49MumzgdqmBcYW8BfuquYzGtFpsDu-JabZmvZhxm8oNNIX3bg=w480-h960-rw" alt="Dailyhunt" id="dal">
+            <h3 id="tor">Dailyhunt</h3>
+        </div>
+        <div class="dh" onclick="wiki()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png" alt="Wikipedia" id="gfg">
+            <h3 id="gfgh">Wikipedia</h3>
+        </div>
+        <div class="gpt" onclick="gpt()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/240px-ChatGPT_logo.svg.png" alt="chatGPT" id="gpti">
+            <h3 id="gptt">ChatGPT</h3>
+        </div>
+        <div class="x" onclick="x()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/266px-X_logo_2023.svg.png" alt="X" id="x">
+            <h3 id="xt">X</h3>
+        </div>
+        <div class="gfg" onclick="snap()">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqdJ6sI40UhgqDS-_Fa5LZ7qzkombbQlnPgsoVlp1NQtBAU7ZD9Y59VIQ&s=10" alt="Gemini" id="snap">
+            <h3 id="snapt">Gemini</h3>
+        </div>
+    </div>
+</body>
+</html>
+
+
 
