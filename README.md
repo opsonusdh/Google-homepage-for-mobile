@@ -19,4 +19,8 @@ pip install flask
 python app.py
 ```
 
+We will work on the page to make it better and will add new features in it.
+
+Thanks for visiting. Have a Great Day 😃
+
 
